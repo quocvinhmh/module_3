@@ -1,0 +1,27 @@
+body{
+    font-family: Arial,sans-serif;
+    line-height: 30px;
+    margin: 50px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight:bolder;
+}
+h2 {
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 15px;
+}
+p {
+    text-indent: 13px;
+
+}
+strong {
+    font-weight: bold;
+}
+text {
+    color: blue;
+    font-weight: bold;
+}
