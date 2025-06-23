@@ -1,0 +1,1 @@
+create database q_ly_san_pham;

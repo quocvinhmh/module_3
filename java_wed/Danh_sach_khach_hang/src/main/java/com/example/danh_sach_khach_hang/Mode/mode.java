@@ -1,30 +1,25 @@
-package com.example.danh_sach_khach_hang;
-
-import jdk.vm.ci.meta.Local;
-import sun.util.resources.LocaleData;
+package com.example.danh_sach_khach_hang.Mode;
 
 import java.time.LocalDate;
-import java.util.Date;
-import java.util.Locale;
 
 public class mode {
-    private String id;
+    private int id;
     private String ten;
     private LocalDate day;
     private String nhan;
 
-    public mode(String id, String ten, LocalDate day, String nhan) {
+    public mode(int id, String ten, LocalDate day) {
         this.id = id;
         this.ten = ten;
         this.day = day;
         this.nhan = nhan;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

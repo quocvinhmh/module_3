@@ -1,7 +1,5 @@
 package com.example.student.controller;
 
-import com.example.student.model.student;
-import com.example.student.service.IDStudentsService;
 import com.example.student.service.StudentsService;
 
 import javax.servlet.ServletException;
@@ -10,11 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 @WebServlet(name = "students",value ="/students")
-public class StudentSv extends HttpServlet {
+public class controll extends HttpServlet {
     StudentsService studentsService = new StudentsService();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
